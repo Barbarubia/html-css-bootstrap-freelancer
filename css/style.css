@@ -1,0 +1,27 @@
+/* SECTIONS' BACKGROUNDS */
+
+:root {
+    --darkblue: #2c3e50;
+    --seagreen: #1abc9c;
+    --white: #ffffff;
+    --bluejeans: #3a546d;
+}
+
+header,
+footer {
+    background-color: var(--darkblue);
+}
+
+/* dd_hero dd_about */
+main > section:nth-of-type(odd) {
+    background-color: var(--seagreen);
+}
+
+/* dd_portfolio dd_contact-me */
+main > section:nth-of-type(even) {
+    background-color: var(--white);
+}
+
+footer .dd_footer-info {
+    background-color: var(--bluejeans);
+}
