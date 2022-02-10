@@ -1,11 +1,16 @@
-/* SECTIONS' BACKGROUNDS */
+/* COLORS VARIABLES */
 
 :root {
-    --darkblue: #2c3e50;
-    --seagreen: #1abc9c;
     --white: #ffffff;
+    --black: #000000;
+    --seagreen: #1abc9c;
+    --darkblue: #2c3e50;
     --bluejeans: #3a546d;
 }
+
+
+
+/* SECTIONS' BACKGROUNDS */
 
 header,
 footer {
@@ -24,4 +29,34 @@ main > section:nth-of-type(even) {
 
 footer .dd_footer-info {
     background-color: var(--bluejeans);
+}
+
+
+
+/* FONT COLOR */
+
+header,
+footer,
+main > section:nth-of-type(odd) {
+    color: var(--white);
+}
+
+main > section:nth-of-type(even) {
+    color: var(--black);
+}
+
+
+
+/* HEADER */
+
+header {
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
 }
