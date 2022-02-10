@@ -1,3 +1,13 @@
+/* DEBUG */
+
+.dd_hero [class*="col"] {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
 /* COLORS VARIABLES */
 
 :root {
