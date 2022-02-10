@@ -1,9 +1,8 @@
 /* DEBUG */
 
-.dd_hero [class*="col"] {
+.dd_hero [class*="col"],
+.dd_portfolio [class*="col"] {
     border: 1px solid black;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 
@@ -16,6 +15,14 @@
     --seagreen: #1abc9c;
     --darkblue: #2c3e50;
     --bluejeans: #3a546d;
+
+    /* portafolio's boxes colors */
+    --box-01: #ba4b63;
+    --box-02: #1ea4b6;
+    --box-03: #140f0f;
+    --box-04: #1c83c1;
+    --box-05: #0e38b5;
+    --box-06: #ccb2a3;
 }
 
 
@@ -69,4 +76,30 @@ nav ul {
 
 nav a {
     text-decoration: none;
+}
+
+/* HERO */
+
+.dd_background-box-01 {
+    background-color: var(--box-01);
+}
+
+.dd_background-box-02 {
+    background-color: var(--box-02);
+}
+
+.dd_background-box-03 {
+    background-color: var(--box-03);
+}
+
+.dd_background-box-04 {
+    background-color: var(--box-04);
+}
+
+.dd_background-box-05 {
+    background-color: var(--box-05);
+}
+
+.dd_background-box-06 {
+    background-color: var(--box-06);
 }
