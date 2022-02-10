@@ -1,7 +1,8 @@
 /* DEBUG */
 
 .dd_hero [class*="col"],
-.dd_portfolio [class*="col"] {
+.dd_portfolio [class*="col"],
+.dd_about [class*="col"]{
     border: 1px solid black;
 }
 
