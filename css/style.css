@@ -11,7 +11,7 @@
 
 
 
-/* COLORS VARIABLES */
+/* COLORI VARIABILI */
 
 :root {
     --white: #ffffff;
@@ -20,7 +20,7 @@
     --darkblue: #2c3e50;
     --bluejeans: #3a546d;
 
-    /* portafolio's boxes colors */
+    /* colore cards portafolio */
     /* INUTILI PERCHE' LE IMMAGINI CONTENGONO GIA' LO SFONDO
     --box-01: #ba4b63;
     --box-02: #1ea4b6;
@@ -29,13 +29,11 @@
     --box-05: #0e38b5;
     --box-06: #ccb2a3;
     */
-
-    COLOR: #148d75;
 }
 
 
 
-/* SECTIONS' BACKGROUNDS */
+/* BACKGROUND SEZIONI */
 
 header,
 footer {
@@ -58,7 +56,7 @@ footer .dd_footer-info {
 
 
 
-/* FONT COLOR */
+/* COLORE FONT */
 
 header,
 footer,
@@ -87,6 +85,8 @@ main > section:nth-of-type(even) .dd_bar {
     background-color: var(--black);
 }
 
+
+
 /* HEADER */
 
 header nav a {
@@ -107,6 +107,25 @@ header i {
 .dd_hero .dd_avatar {
     max-width: 250px;
 }
+
+
+
+/* PORTFOLIO */
+
+/* Overlay Cards */
+
+.dd_portfolio .card .dd_overlay {
+    background-color: rgba(26,188,156,.7);
+    font-size: 5rem;
+    color: var(--white);
+    opacity: 0;
+}
+
+.dd_portfolio .card:hover .dd_overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
 
 
 
@@ -141,6 +160,9 @@ header i {
     border-color: #17a186;
 }
 
+
+
+
 /* FOOTER INFO */
 
 /* Bottoni social networks */
@@ -160,16 +182,6 @@ header i {
     text-decoration: none;
     color: var(--black);
 }
-
-/* footer .dd_footer-info i {
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: .5rem;
-    border: 1px solid var(--white);
-    border-radius: 50%;
-    line-height: 2.5rem;
-    vertical-align: middle;   
-} */
 
 /* Decorazione Link paragrafo */
 
