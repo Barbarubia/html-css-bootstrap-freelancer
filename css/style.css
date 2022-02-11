@@ -70,17 +70,18 @@ main > section:nth-of-type(even) {
 
 /* HEADER */
 
-header {
-    text-transform: uppercase;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav a {
+header nav a {
     text-decoration: none;
 }
+
+header i {
+    color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: .2em;
+    padding: .2em;
+}
+
+
 
 /* HERO */
 
@@ -106,4 +107,18 @@ nav a {
 
 .dd_background-box-06 {
     background-color: var(--box-06);
+}
+
+/* FOOTER INFO */
+
+/* Bordo icone social networks */
+
+footer .dd_footer-info i {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: .5rem;
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    line-height: 2.5rem;
+    vertical-align: middle;   
 }
