@@ -193,3 +193,9 @@ footer .dd_footer-info .dd_link-p {
 footer .dd_footer-info .dd_link-p:hover {
     text-decoration: underline;
 }
+
+/* FOOTER COPYRIGHT: font-size più piccolo */
+
+.dd_fs-7 {
+    font-size: .8rem;
+}
