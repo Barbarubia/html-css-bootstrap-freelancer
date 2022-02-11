@@ -91,6 +91,7 @@ main > section:nth-of-type(even) .dd_bar {
 
 /* HEADER */
 
+/* Regole utilizzate prima di implementare la navbar nativa di Bootstrap
 header nav a {
     text-decoration: none;
 }
@@ -101,7 +102,19 @@ header i {
     border-radius: .2em;
     padding: .2em;
 }
+*/
 
+header .navbar-nav .nav-link {
+    color: var(--white);
+}
+
+header .navbar-nav .nav-link:hover {
+    color: var(--seagreen);
+}
+
+header .dd_border-icon {
+    border-color: white;
+}
 
 
 /* HERO */

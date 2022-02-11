@@ -30,8 +30,8 @@ Desktop: lg
 -->
 
 <!-- TODO:
-    trasformare in bottone l'icona hamburger nell'header
-    implementare la navbar nell'header
+    Effetto hover icona menu hamburger
+    Aggiustare margine sotto l'header fixed
 -->
 
 <body>
@@ -42,32 +42,40 @@ Desktop: lg
 
         <div class="container container-md container-lg">
 
-            <div class="row justify-content-between text-uppercase">
+            <nav class="row navbar navbar-expand-md justify-content-between text-uppercase">
 
-                <!-- colonna a sinistra -->
-                <div class="col text-start">
-                    <a href="#hero" class="text-decoration-none text-white">Start Bootstrap</a>
+                <div class="container-fluid">
+                    
+                    <!-- Link a sinistra -->
+                    <a class="navbar-brand text-decoration-none text-white" href="#hero">Start Bootstrap</a>
+                    
+                    <!-- Bottone menu hamburger -->
+                    <button class="navbar-toggler navbar-dark border-light shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Menu esteso -->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-decoration-none" href="#portfolio">Portfolio</a>
+                            <a class="nav-link text-decoration-none" href="#about">About</a>
+                            <a class="nav-link text-decoration-none" href="#contact-me">Contact</a>
+                        </div>
+                    </div>
+
                 </div>
-
-                <!-- colonna a destra con navbar che compare al breakpoint md (e scompare icona hamburger) -->
-                <div class="col text-end d-md-none"><i class="fa-solid fa-bars"></i></div>
-                <nav class="col text-end d-none d-md-inline">
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><a class="text-white" href="#!">Portfolio</a></li>
-                        <li class="list-inline-item"><a class="text-white" href="#!">About</a></li>
-                        <li class="list-inline-item"><a class="text-white" href="#!">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+                
+            </nav>
 
         </div>
+
         
     </header>
 
 
     <!-- MAIN -->
 
-    <main>
+    <main class="mt-5">
 
         <!-- HERO -->
 
@@ -100,7 +108,7 @@ Desktop: lg
 
         <!-- PORTFOLIO -->
 
-        <section class="dd_portfolio py-5">
+        <section class="dd_portfolio py-5" id="portfolio">
 
             <div class="container container-md container-lg">
                 
@@ -122,7 +130,7 @@ Desktop: lg
                 <!-- Cards con immagini e effetto overlay all'hover -->
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-center g-2">
                     <div class="col">
-                        <div class="rounded-3">
+                        <div class="card">
                             <img class="img-fluid rounded-3" src="img/cabin.png" alt="Cabin">
                             <div class="card-img-overlay dd_overlay d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -130,7 +138,7 @@ Desktop: lg
                         </div>
                     </div>
                     <div class="col">
-                        <div class="rounded-3">
+                        <div class="card">
                             <img class="img-fluid rounded-3" src="img/cake.png" alt="Cake">
                             <div class="card-img-overlay dd_overlay d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -138,7 +146,7 @@ Desktop: lg
                         </div>
                     </div>
                     <div class="col">
-                        <div class="rounded-3">
+                        <div class="card">
                             <img class="img-fluid rounded-3" src="img/circus.png" alt="Circus">
                             <div class="card-img-overlay dd_overlay d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -146,7 +154,7 @@ Desktop: lg
                         </div>
                     </div>
                     <div class="col">
-                        <div class="rounded-3">
+                        <div class="card">
                             <img class="img-fluid rounded-3" src="img/game.png" alt="Game">
                             <div class="card-img-overlay dd_overlay d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -154,7 +162,7 @@ Desktop: lg
                         </div>
                     </div>
                     <div class="col">
-                        <div class="rounded-3">
+                        <div class="card">
                             <img class="img-fluid rounded-3" src="img/safe.png" alt="Safe">
                             <div class="card-img-overlay dd_overlay d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -162,7 +170,7 @@ Desktop: lg
                         </div>
                     </div>
                     <div class="col">
-                        <div class="rounded-3">
+                        <div class="card">
                             <img class="img-fluid rounded-3" src="img/submarine.png" alt="Submarine">
                             <div class="card-img-overlay dd_overlay d-flex justify-content-center align-items-center">
                                 <i class="fa-solid fa-plus"></i>
@@ -180,7 +188,7 @@ Desktop: lg
 
         <!-- ABOUT -->
 
-        <section class="dd_about py-5">
+        <section class="dd_about py-5" id="about">
 
             <div class="container container-md container-lg">
 
@@ -224,7 +232,7 @@ Desktop: lg
 
         <!-- CONTACT ME -->
 
-        <section class="dd_contact-me py-5">
+        <section class="dd_contact-me py-5" id="contact-me">
 
             <div class="container container-md container-lg">
 
