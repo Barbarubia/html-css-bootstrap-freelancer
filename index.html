@@ -174,7 +174,7 @@ Desktop: lg
                     </div>
                 </div>
 
-                <!-- Testo a 2 colonne -->
+                <!-- Testo a 2 colonne affiancate a partire da breakpoint md -->
                 <div class="row justify-content-center">
                     <div class="col-10 col-md-5 col-lg-5">
                         <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -187,7 +187,7 @@ Desktop: lg
                 <!-- Bottone Download -->
                 <div class="row justify-content-center">
                     <div class="col-10 text-center">
-                        <button type="button" class="btn btn-outline-light dd_white">
+                        <button type="button" class="btn btn-outline-light">
                             <i class="fa-solid fa-download"></i> Download  
                         </button>
                     </div>
@@ -218,12 +218,29 @@ Desktop: lg
                     </div>
                 </div>
 
-                <!-- Testo a 2 colonne a partire da breakpoint md -->
-                <div class="row justify-content-center">
-                    <div class="col-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rem nam consequatur voluptas nulla doloremque eveniet laudantium velit, veniam cum! Quibusdam tempore, vel odio voluptatum beatae quaerat neque nam quasi.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam repellendus quisquam pariatur deleniti vero. Incidunt labore odit repellat consequatur distinctio libero reprehenderit quis in velit voluptatibus, neque quo laudantium quisquam!
+                <form class="row justify-content-center needs-validation" novalidate>
+                    <div class="col-10">
+                        <div class="my-3">
+                            <input type="text" class="form-control dd_form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                        <input type="email" class="form-control dd_form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control dd_form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <textarea class="form-control dd_form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="7"></textarea>
+                        </div>
                     </div>
-                </div>
+
+                    <!-- Bottone invio form -->
+                    <div class="col-10">
+                        <button class="btn dd_btn-seagreen" type="submit">Send</button>
+                    </div>
+
+                </form>
 
             </div>
             

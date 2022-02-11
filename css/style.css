@@ -21,12 +21,16 @@
     --bluejeans: #3a546d;
 
     /* portafolio's boxes colors */
+    /* INUTILI PERCHE' LE IMMAGINI CONTENGONO GIA' LO SFONDO
     --box-01: #ba4b63;
     --box-02: #1ea4b6;
     --box-03: #140f0f;
     --box-04: #1c83c1;
     --box-05: #0e38b5;
     --box-06: #ccb2a3;
+    */
+
+    COLOR: #148d75;
 }
 
 
@@ -106,13 +110,35 @@ header i {
 
 
 
-/* ABOUT */
+/* CONTACT ME */
 
-/* Bottone Download */
+/* Stile Form */
 
-.dd_about .btn .dd_white {
-    color: white;
-    border: white;
+.dd_contact-me .dd_form-control {
+    padding-left: 0;
+    color: black;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+}
+
+/* Ridimensionamento textarea */
+
+.dd_contact-me textarea {
+    resize: both;
+}
+
+/* Bottone Send */
+
+.dd_contact-me .dd_btn-seagreen {
+    color: var(--white);
+    background-color: var(--seagreen);
+    border-color: var(--seagreen);
+}
+
+.dd_contact-me .dd_btn-seagreen:hover {
+    background-color: #17a186;
+    border-color: #17a186;
 }
 
 /* FOOTER INFO */
