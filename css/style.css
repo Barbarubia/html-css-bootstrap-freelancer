@@ -68,6 +68,21 @@ main > section:nth-of-type(even) {
 
 
 
+/* STAR */
+
+.dd_bar {
+    height: .2rem;
+    width: 7rem;
+}
+
+main > section:nth-of-type(odd) .dd_bar {
+    background-color: var(--white);
+}
+
+main > section:nth-of-type(even) .dd_bar {
+    background-color: var(--black);
+}
+
 /* HEADER */
 
 header nav a {
