@@ -100,28 +100,8 @@ header i {
 
 /* HERO */
 
-.dd_background-box-01 {
-    background-color: var(--box-01);
-}
-
-.dd_background-box-02 {
-    background-color: var(--box-02);
-}
-
-.dd_background-box-03 {
-    background-color: var(--box-03);
-}
-
-.dd_background-box-04 {
-    background-color: var(--box-04);
-}
-
-.dd_background-box-05 {
-    background-color: var(--box-05);
-}
-
-.dd_background-box-06 {
-    background-color: var(--box-06);
+.dd_hero .dd_avatar {
+    max-width: 250px;
 }
 
 /* FOOTER INFO */
