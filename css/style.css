@@ -117,3 +117,14 @@ footer .dd_footer-info i {
     line-height: 2.5rem;
     vertical-align: middle;   
 }
+
+/* Decorazione Link paragrafo */
+
+footer .dd_footer-info .dd_link-p {
+    text-decoration: none;
+    color: var(--seagreen);
+}
+
+footer .dd_footer-info .dd_link-p:hover {
+    text-decoration: underline;
+}
