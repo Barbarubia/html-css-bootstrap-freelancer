@@ -104,6 +104,17 @@ header i {
     max-width: 250px;
 }
 
+
+
+/* ABOUT */
+
+/* Bottone Download */
+
+.dd_about .btn .dd_white {
+    color: white;
+    border: white;
+}
+
 /* FOOTER INFO */
 
 /* Bordo icone social networks */
