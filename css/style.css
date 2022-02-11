@@ -143,6 +143,12 @@ header i {
     border-bottom: 1px solid grey;
 }
 
+.dd_contact-me .dd_form-control:focus {
+    border-bottom: 1px solid var(--seagreen);
+    box-shadow: none;
+}
+
+
 /* Ridimensionamento textarea */
 
 .dd_contact-me textarea {
