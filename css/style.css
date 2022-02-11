@@ -143,9 +143,25 @@ header i {
 
 /* FOOTER INFO */
 
-/* Bordo icone social networks */
+/* Bottoni social networks */
 
-footer .dd_footer-info i {
+.dd_footer-info .social-networks .btn {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 .5rem;
+}
+
+.dd_footer-info .social-networks .btn a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.dd_footer-info .social-networks .btn:hover a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* footer .dd_footer-info i {
     height: 2.5rem;
     width: 2.5rem;
     margin: .5rem;
@@ -153,7 +169,7 @@ footer .dd_footer-info i {
     border-radius: 50%;
     line-height: 2.5rem;
     vertical-align: middle;   
-}
+} */
 
 /* Decorazione Link paragrafo */
 
