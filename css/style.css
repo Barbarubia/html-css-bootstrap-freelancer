@@ -112,10 +112,12 @@ header .navbar-nav .nav-link:hover {
     color: var(--seagreen);
 }
 
-header .dd_border-icon {
-    border-color: white;
-}
+/* Bottone Menu Hamburger */
+/* !!! Sovrascrivo alcune proprietà delle classi bootstrap utilizzate per personalizzare il bottone */
 
+.navbar-toggler {
+    border: 1px solid var(--white);
+}
 
 /* HERO */
 
